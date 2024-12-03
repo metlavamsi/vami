@@ -10,4 +10,6 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 public class Naga {
     @ValueMapValue
     private String trext;
+    @ValueMapValue
+    private String path;
 }
