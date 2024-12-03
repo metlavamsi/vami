@@ -12,4 +12,6 @@ public class Naga {
     private String trext;
     @ValueMapValue
     private String path;
+    @ValueMapValue
+    private String checkbox;
 }
