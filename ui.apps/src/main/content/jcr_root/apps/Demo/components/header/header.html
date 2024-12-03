@@ -1,0 +1,9 @@
+<div data-sly-use.vamsi="com.adobe.aem.guides.demo.core.models.Surgemodel"></div>
+<h1>Hello</h1>
+<h1>${vamsi.text}</h1>
+<h2>${vamsi.path}</h2>
+<h1>${vamsi.checkbox}</h1>
+<div data-sly-list.v="${vamsi.multifield}">
+<h4>${v.text}</h4>
+<h5>${v.date}</h5>
+</div>
